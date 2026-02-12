@@ -1,0 +1,87 @@
+.animal-link {
+  cursor: pointer;
+  display: block;
+  padding: 12px;
+}
+.animal-img {
+  width: 100%;
+  margin-bottom: 8px;
+
+}
+
+.caption {
+  text-align: center;
+
+}
+
+.animal-link:hover {
+  opacity: 0.8;
+}
+
+
+body {
+  background-image:url(https://i.pinimg.com/736x/ff/dc/9f/ffdc9f6164ad08d512a0f9fdc9fecb47.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: fantasy;
+}
+
+h1 {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.nav{
+  grid-column: 1 / -1;
+}
+
+.dragonfly {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+audio {
+  grid-column: 1/-1;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.fish-page {
+  background-image: url("https://i.pinimg.com/736x/71/35/ec/7135ecd2338a551ec0c6c496f971aca0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dragonfly-page {
+  background-image: url("https://i.pinimg.com/736x/9f/75/2a/9f752aab38f258be5753fd2ddfcf4b9a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-text {
+  color: #222;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+.hedgehog-img {
+  display: block;
+  width: 120pxs;
+  margin: 20px auto;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 12px 20px;
+}
+
